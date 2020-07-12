@@ -1,0 +1,7 @@
+client/node_modules/
+docker-lambda/
+node_modules/
+server/.env
+server/node_modules/
+server/prisma/migrations/
+yarn-error.log

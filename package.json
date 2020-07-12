@@ -1,0 +1,21 @@
+{
+  "name": "lambdajs",
+  "version": "1.0.0",
+  "description": "Bootstrap AWS Lambda on Node.js",
+  "main": "index.js",
+  "repository": "https://github.com/bingalls/lambda.js",
+  "author": "bruce.ingalls@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently \"npm run client\" \"npm run server\" "
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
